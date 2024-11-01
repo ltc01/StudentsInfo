@@ -1,0 +1,172 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "profileImage": "https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg",
+      "major": "Computer Science",
+      "year": "Junior",
+      "email": "alice.johnson@example.com",
+      "courses": [
+        {
+          "courseId": "CS101",
+          "courseName": "Introduction to Programming"
+        },
+        {
+          "courseId": "MATH201",
+          "courseName": "Calculus II"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View Details",
+          "link": "/students/1/details"
+        },
+        {
+          "label": "Edit",
+          "link": "/students/1/edit"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "profileImage": "https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg",
+      "major": "Electrical Engineering",
+      "year": "Senior",
+      "email": "bob.smith@example.com",
+      "courses": [
+        {
+          "courseId": "EE301",
+          "courseName": "Circuit Analysis"
+        },
+        {
+          "courseId": "PHYS202",
+          "courseName": "Electromagnetism"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View Details",
+          "link": "/students/2/details"
+        },
+        {
+          "label": "Edit",
+          "link": "/students/2/edit"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Clara Lee",
+      "profileImage": "https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg",
+      "major": "Mechanical Engineering",
+      "year": "Sophomore",
+      "email": "clara.lee@example.com",
+      "courses": [
+        {
+          "courseId": "MECH200",
+          "courseName": "Thermodynamics"
+        },
+        {
+          "courseId": "MATH101",
+          "courseName": "Linear Algebra"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View Details",
+          "link": "/students/3/details"
+        },
+        {
+          "label": "Edit",
+          "link": "/students/3/edit"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "David Kim",
+      "profileImage": "https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg",
+      "major": "Civil Engineering",
+      "year": "Freshman",
+      "email": "david.kim@example.com",
+      "courses": [
+        {
+          "courseId": "CIV101",
+          "courseName": "Introduction to Civil Engineering"
+        },
+        {
+          "courseId": "PHYS101",
+          "courseName": "Physics I"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View Details",
+          "link": "/students/4/details"
+        },
+        {
+          "label": "Edit",
+          "link": "/students/4/edit"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Emma Brown",
+      "profileImage": "https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg",
+      "major": "Biology",
+      "year": "Senior",
+      "email": "emma.brown@example.com",
+      "courses": [
+        {
+          "courseId": "BIO101",
+          "courseName": "General Biology"
+        },
+        {
+          "courseId": "CHEM102",
+          "courseName": "Organic Chemistry"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View Details",
+          "link": "/students/5/details"
+        },
+        {
+          "label": "Edit",
+          "link": "/students/5/edit"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Frank Wilson",
+      "profileImage": "https://static.vecteezy.com/system/resources/thumbnails/020/765/399/small_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg",
+      "major": "Mathematics",
+      "year": "Junior",
+      "email": "frank.wilson@example.com",
+      "courses": [
+        {
+          "courseId": "MATH301",
+          "courseName": "Abstract Algebra"
+        },
+        {
+          "courseId": "CS102",
+          "courseName": "Data Structures"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View Details",
+          "link": "/students/6/details"
+        },
+        {
+          "label": "Edit",
+          "link": "/students/6/edit"
+        }
+      ]
+    }
+  ]
+}
