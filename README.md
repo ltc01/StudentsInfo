@@ -40,4 +40,5 @@ Each student entry in Data.json should follow this format:
   }
 }
 
-### Developed by Laxmiii_
+### Author
+Developed by Laxmiii_
