@@ -1,8 +1,43 @@
-# React + Vite
+# Student Information Display
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application which uses TailwindCSS for styling. It basically displays a list of students using individual student cards. Data is sourced from a local Data.json file and rendered via the StudentCard component.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   git clone https://github.com/ltc01/StudentsInfo.git
+
+2. Navigate into the project directory:
+   cd StudentsInfo
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+   The app will be accessible at http://localhost:5173
+
+## Project Structure
+
+- StudentsList.js: Renders the list of students.
+- StudentCard.js: Displays individual student information.
+- Data.json: Contains sample student data.
+
+## Data Format
+
+Each student entry in Data.json should follow this format:
+
+{
+  "name": "John Doe",
+  "profileImage": "url_to_image.jpg",
+  "major": "Computer Science",
+  "year": "Sophomore",
+  "email": "john.doe@example.com",
+  "actions": {
+    "viewProfile": "url_to_profile",
+    "contact": "contact_link"
+  }
+}
+
+### Developed by Laxmiii_
