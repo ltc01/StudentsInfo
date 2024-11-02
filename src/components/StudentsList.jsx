@@ -3,8 +3,8 @@ import { StudentCard } from "./StudentCard";
 import { MainContext } from "../context/StudentContext";
 
 export const StudentsList = () => {
-  const { ans, studentData } = useContext(MainContext);
-console.log(studentData)
+  const { studentData } = useContext(MainContext);
+
   return (
     <>
       {/* main cards components */}

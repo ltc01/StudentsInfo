@@ -14,7 +14,7 @@ export const SubHeading = () => {
                 item === "All"
                   ? "bg-purple-400 text-white border-none"
                   : "bg-transparent text-black"
-              }  bg-white text-black text-xs hover:text-white font-medium px-2 h-fit py-1 rounded-lg `}
+              } text-xs hover:text-white font-medium px-2 h-fit py-1 rounded-lg `}
               key={index}
             >
               {item}
