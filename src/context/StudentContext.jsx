@@ -1,11 +1,21 @@
-import { createContext } from "react";
-import studentData from './../Data.json';
+import { createContext, useState } from "react";
+import data from "./../Data.json";
 
-const MainContext = createContext();
+export const MainContext = createContext();
 
-export const ContextProvider = ({children}) => {
-    const [name, profileImage, major, year, email, actions] = [...studentData];
-    co
+export const ContextProvider = ({ children }) => {
+  const [ans, setAns] = useState([]);
+  const [studentData, setStudentData] = useState(data);
+  const [searchItem, setSearchItem] = useState("");
 
-    return <MainContext.Provider value={data} >{children}</MainContext.Provider>
-}
+  const value = {
+    studentData,
+    setStudentData,
+    searchItem,
+    setSearchItem,
+    ans,
+    setAns,
+  };
+
+  return <MainContext.Provider value={value}>{children}</MainContext.Provider>;
+};
