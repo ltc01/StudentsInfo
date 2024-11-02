@@ -1,25 +1,27 @@
 import React, { useContext } from "react";
 import { MainContext } from "../context/StudentContext";
 import { FaSearch } from "react-icons/fa";
+import data from "./../Data.json";
 
 export const Header = () => {
-  const { setAns, setSearchItem, studentData, setStudentData, searchItem } =
+  const { setSearchItem, studentData, setStudentData, searchItem } =
     useContext(MainContext);
 
   // function for search items
   const handleSearch = (e) => {
     const value = e.target.value;
     setSearchItem(value);
-    let filteredResults = studentData.students.filter((prev) =>
+
+    if(!value) {
+      setStudentData(data.students);
+    } else {
+      let filteredResults = studentData.filter((prev) =>
       prev.name.toLowerCase().includes(value.toLowerCase())
     );
-
-    if (filteredResults.length === 0) {
-      setStudentData(["No Data Found"]); // Or any other way to indicate no results
-    } else {
       setStudentData(filteredResults);
     }
-  };
+  }
+  
 
   return (
     <>
